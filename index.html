@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FINAL-PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">WORLD VIEW 360</div>
+            <ul class="links">
+                <li><a href="apie-mus">Apie Mus</a></li>
+            <li><a href="paslaugos">Paslaugos</a></li>
+            <li><a href="galerija">Galerija</a></li>
+            <li><a href="kaina">Kaina</a></li>
+            <li><a href="kontaktai">Kontaktai</a></li>
+            </ul>
+            <a href="#" class="action_btn">Get Started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="dropdown_menu">
+                <li><a href="apie-mus">Apie Mus</a></li>
+                <li><a href="paslaugos">Paslaugos</a></li>
+                <li><a href="galerija">Galerija</a></li>
+                <li><a href="kaina">Kaina</a></li>
+                <li><a href="kontaktai">Kontaktai</a></li>
+<li>
+    <a href="#" class="action_btn">Get Started</a>
+</li>
+            </div>
+
+    </header>
+
+    <main>
+<section id="hero">
+<h1>Pamatyk Pasauli Kitaip</h1>
+<p>Ekstremalios keliones i apleistas pasaulio vietas.<br /> Mesk sau issuki ir isbandyk save</p>
+
+</section>
+
+    </main>
+
+
+<script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.oneclick = function() {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ?'fa-solid fa-xmark'
+        :'fa-solid fa-bars'
+    }
+
+</script>
+
+
+
+
+
+
+
+    <!-- headerio pradzia
+     <header class="header">
+        <a href="#" class="logo">
+        <img src="img/LOGO.png" alt="Logotipas">
+    </a>
+    <nav class="navigation">
+        <ul>
+            <li><a href="apie-mus">Apie Mus</a></li>
+            <li><a href="#">Paslaugos</a></li>
+            <li><a href="#">Galerija</a></li>
+            <li><a href="#">Kaina</a></li>
+            <li><a href="#">Kontaktai</a></li>
+        </ul>
+    </nav>
+     </header> -->
+    <!-- <header class="virsutinis-header">
+    
+        <nav class="top-navigation">
+            
+            <a href="#" class="logotipas">
+                <img src="img/LOGO.png" alt="Logotipas">
+                <span>Event Planner</span>
+            </a>
+    
+            <ul>
+                <li><a href="#">Apie Mus</a></li>
+                <li><a href="#">Paslaugos</a></li>
+                <li><a href="#">Galerija</a></li>
+                <li><a href="#">Kaina</a></li>
+                <li><a href="#">Kontaktai</a></li>
+            </ul>
+        </nav>
+    <div id="menu-bars" class="barsai"></div>
+        <div class="hero">
+            <h1>Let's Boom Your Day</h1> 
+             <img src="img/HERO.jpeg" alt="HERO IMG">
+    
+        </div>
+    </header>
+    <section>ffe</section>
+    <section>ffe</section>
+    <section>ffe</section> -->
+</body>
+</html>
+
